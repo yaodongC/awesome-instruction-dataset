@@ -29,7 +29,11 @@ Generation-method:
    - [(Hello-SimpleAI/HC3)|24K|EN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3)
    - [(Hello-SimpleAI/HC3-Chinese)|13K|CN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3)
    - [(allenai/prosocial-dialog)|58K|EN|MT|MIX](https://huggingface.co/datasets/allenai/prosocial-dialog)
-3. [Awesome Codebase](#Open-source Codebase For Instruction-following LLMs)
+   - [(allenai/natural-instructions)|1.6K|ML|MT|HG](https://github.com/allenai/natural-instructions)
+   - [(bigscience/xP3)|N/A|ML|MT|MIX](https://huggingface.co/datasets/bigscience/xP3)
+3. [At Your Own Risk Dataset](#Dataset-without-license-information )
+   - [(alespalla/chatbot_instruction_prompts)|250k|EN|MT|SI](https://huggingface.co/datasets/alespalla/chatbot_instruction_prompts)
+5. [Awesome Codebase](#Open-source Codebase For Instruction-following LLMs)
    - [A awesome compilation of Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
  
 
@@ -108,6 +112,15 @@ Append the new project at the end of file
  - Summary: [Prompt-resource] xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.
  - Data generation model: N/A
  - paper: [Crosslingual Generalization through Multitask Finetuning](https://arxiv.org/abs/2211.01786)
+ - Cost: N/A
+
+# Dataset without license information 
+
+ ## [(alespalla/chatbot_instruction_prompts)|250k|EN|MT|SI](https://huggingface.co/datasets/alespalla/chatbot_instruction_prompts)
+
+ - Summary: A compilation of `tatsu-lab/alpaca` ,`Dahoas/instruct-human-assistant-prompt` ,`allenai/prosocial-dialog`
+ - Data generation model: N/A
+ - paper: N/A
  - Cost: N/A
 
 # Open-source Codebase For Instruction-following LLMs
