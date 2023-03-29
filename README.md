@@ -3,6 +3,8 @@ A collection of open-source dataset to train chat-based LLMs (ChatGPT,LLaMA,Alpa
 
 Instruction Tuning is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
 
+Size: The number of NLP instructions
+
 Lingual-Tags:
 -   EN: Instruction datasets in English
 -   CN: Instruction datasets in Chinese
@@ -69,31 +71,44 @@ Append the new project at the end of file
  
  ## [(JosephusCheung/GuanacoDataset)|534K|ML|MT|SI](https://huggingface.co/datasets/JosephusCheung/GuanacoDataset)
 
- - Summary:`52K` data generated from modified `self-instruct` pipeline with human written `429 seed task`.
+ - Summary:`52K` instruction data generated from modified `self-instruct` pipeline with human written `429 seed task`.
  - Data generation model: `text-davinci-003`
  - Cost: $6000
 
  ## [(Hello-SimpleAI/HC3)|24K|EN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3)
 
  - Summary:The the first human-ChatGPT comparison corpus (English Version), named HC3 dataset
- - Data generation model: `gpt-3.5`, `human`
+ - Data generation model: `gpt-3.5`, `human generated`
  - paper: [How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection](https://arxiv.org/abs/2301.07597)
  - Cost: N/A
 
  ## [(Hello-SimpleAI/HC3-Chinese)|13K|CN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3)
 
  - Summary:The the first human-ChatGPT comparison corpus (Chinese Version), named HC3 dataset
- - Data generation model: `gpt-3.5`, `human`
+ - Data generation model: `gpt-3.5`, `human generated`
  - paper: [How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection](https://arxiv.org/abs/2301.07597)
  - Cost: N/A
 
  ## [(allenai/prosocial-dialog)|58K|EN|MT|MIX](https://huggingface.co/datasets/allenai/prosocial-dialog)
 
  - Summary: ProsocialDialog is the first large-scale multi-turn English dialogue dataset to teach conversational agents to respond to problematic content following social norms.
- - Data generation model: `gpt-3.5`, `human`
+ - Data generation model: `gpt-3.5`, `human generated`
  - paper: [ProsocialDialog: A Prosocial Backbone for Conversational Agents](https://arxiv.org/abs/2205.12688)
  - Cost: N/A
 
+ ## [(allenai/natural-instructions)|1.6K|ML|MT|HG](https://github.com/allenai/natural-instructions)
+
+ - Summary: A community effort to create a large collection of `1,616 diverse NLP tasks` and their natural language definitions/instructions.
+ - Data generation model: `Human generated`
+ - paper: [Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks](https://arxiv.org/abs/2204.07705)
+ - Cost: N/A
+ 
+ ## [(bigscience/xP3)|N/A|ML|MT|MIX](https://huggingface.co/datasets/bigscience/xP3)
+
+ - Summary: [Prompt-resource] xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.
+ - Data generation model: N/A
+ - paper: [Crosslingual Generalization through Multitask Finetuning](https://arxiv.org/abs/2211.01786)
+ - Cost: N/A
 
 # Open-source Codebase For Instruction-following LLMs
 
