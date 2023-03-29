@@ -1,4 +1,4 @@
-# awesome-instruction-dataset
+# awesome-ChatGPT|LLaMA(instruction)-dataset
 A collection of open-source dataset to train chat-based LLMs (ChatGPT,LLaMA,Alpaca)
 
 Instruction Tuning is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
