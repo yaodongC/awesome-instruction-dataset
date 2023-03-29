@@ -27,6 +27,8 @@ Generation-method:
    - [(Hello-SimpleAI/HC3)|24K|EN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3)
    - [(Hello-SimpleAI/HC3-Chinese)|13K|CN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3)
    - [(allenai/prosocial-dialog)|58K|EN|MT|MIX](https://huggingface.co/datasets/allenai/prosocial-dialog)
+3. [Awesome Codebase](#Open-source Codebase For Instruction-following LLMs)
+   - [A awesome compilation of Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
  
 
 # The template
@@ -93,3 +95,7 @@ Append the new project at the end of file
  - Cost: N/A
 
 
+# Open-source Codebase For Instruction-following LLMs
+
+## [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
+- Summary: Alternatives are projects featuring different instruct finetuned language models for chat. 
