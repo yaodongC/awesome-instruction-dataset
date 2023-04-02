@@ -1,9 +1,9 @@
-# awesome-ChatGPT|LLaMA(instruction)-dataset
-A collection of open-source dataset to train chat-based LLMs (ChatGPT,LLaMA,Alpaca)
+# awesome-ChatGPT|LLaMA(instruction tuning)-dataset
+A collection of open-source instruction tuning datasets to train chat-based LLMs (ChatGPT,LLaMA,Alpaca)
 
 Instruction Tuning is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
 
-Size: The number of NLP instructions
+Size: The number of instruction tuning pairs
 
 Lingual-Tags:
 -   EN: Instruction datasets in English
@@ -119,7 +119,7 @@ Append the new project at the end of file
 
  ## [(PhoebusSi/Alpaca-CoT)|500k|ML|MT|COL](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT)
 
- - Summary: A datset for Chain-of-Thoughts reasoning based on LLaMA and Alpaca. [Github Repo](https://github.com/PhoebusSi/Alpaca-CoT)
+ - Summary: A datset for Chain-of-Thoughts reasoning based on LLaMA and Alpaca. Note: Their repository will continuously collect various instruction tuning datasets. [Github Repo](https://github.com/PhoebusSi/Alpaca-CoT)
  - paper: N/A
  - Cost: N/A
  
