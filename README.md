@@ -18,6 +18,7 @@ Generation-method:
 - HG: [Human Generated Dataset] Datasets created by humans
 - SI: [Self-Instruct] Datasets generated using self-instruct methods
 - MIX: [Mixed Dataset] Dataset contains both human and machine generated data
+- COL: [Collection of Dataset] Dataset made from a collection of other datasets
 
 # Table of Contents
 1. [The template](#The-template)
@@ -31,8 +32,10 @@ Generation-method:
    - [(allenai/prosocial-dialog)|58K|EN|MT|MIX](https://huggingface.co/datasets/allenai/prosocial-dialog)
    - [(allenai/natural-instructions)|1.6K|ML|MT|HG](https://github.com/allenai/natural-instructions)
    - [(bigscience/xP3)|N/A|ML|MT|MIX](https://huggingface.co/datasets/bigscience/xP3)
+   - [(nomic-ai/gpt4all)|437k|EN|MT|COL](https://github.com/nomic-ai/gpt4all)
+   - [(PhoebusSi/Alpaca-CoT)|500k|ML|MT|COL](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT)
 3. [At Your Own Risk Dataset](#Dataset-without-license-information )
-   - [(alespalla/chatbot_instruction_prompts)|250k|EN|MT|SI](https://huggingface.co/datasets/alespalla/chatbot_instruction_prompts)
+   - [(alespalla/chatbot_instruction_prompts)|250k|EN|MT|COL](https://huggingface.co/datasets/alespalla/chatbot_instruction_prompts)
 5. [Awesome Codebase](#Open-source Codebase For Instruction-following LLMs)
    - [A awesome compilation of Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
  
@@ -114,9 +117,22 @@ Append the new project at the end of file
  - paper: [Crosslingual Generalization through Multitask Finetuning](https://arxiv.org/abs/2211.01786)
  - Cost: N/A
 
+ ## [(PhoebusSi/Alpaca-CoT)|500k|ML|MT|COL](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT)
+
+ - Summary: A datset for Chain-of-Thoughts reasoning based on LLaMA and Alpaca. [Github Repo](https://github.com/PhoebusSi/Alpaca-CoT)
+ - paper: N/A
+ - Cost: N/A
+ 
+ ## [(nomic-ai/gpt4all)|437k|EN|MT|COL](https://github.com/nomic-ai/gpt4all)
+
+ - Summary: gpt4all leverages three publicly available datasets: 1.[laion/OIG](https://huggingface.co/datasets/laion/OIG), 2.[pacovaldez/stackoverflow-questions](https://huggingface.co/datasets/pacovaldez/stackoverflow-questions) 3. subset of [bigscience/bloomz-p3](https://huggingface.co/bigscience/bloomz-p3)
+ - Data generation model: N/A
+ - paper: [GPT4All: Training an Assistant-style Chatbot with Large Scale Data Distillation from GPT-3.5-Turbo](https://s3.amazonaws.com/static.nomic.ai/gpt4all/2023_GPT4All_Technical_Report.pdf)
+ - Cost: $500
+ 
 # Dataset without license information 
 
- ## [(alespalla/chatbot_instruction_prompts)|250k|EN|MT|SI](https://huggingface.co/datasets/alespalla/chatbot_instruction_prompts)
+ ## [(alespalla/chatbot_instruction_prompts)|250k|EN|MT|COL](https://huggingface.co/datasets/alespalla/chatbot_instruction_prompts)
 
  - Summary: A compilation of `tatsu-lab/alpaca` ,`Dahoas/instruct-human-assistant-prompt` ,`allenai/prosocial-dialog`
  - Data generation model: N/A
