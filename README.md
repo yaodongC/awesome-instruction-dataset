@@ -89,7 +89,7 @@ Append the new project at the end of file
  - paper: [How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection](https://arxiv.org/abs/2301.07597)
  - Cost: N/A
 
- ## [(Hello-SimpleAI/HC3-Chinese)|13K|CN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3)
+ ## [(Hello-SimpleAI/HC3-Chinese)|13K|CN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese)
 
  - Summary:The the first human-ChatGPT comparison corpus (Chinese Version), named HC3 dataset
  - Data generation model: `gpt-3.5`, `human generated`
