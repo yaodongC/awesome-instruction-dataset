@@ -1,7 +1,7 @@
-# awesome-ChatGPT|LLaMA(instruction tuning)-dataset
+# awesome-instruction-tuning(ChatGPT|LLaMA)-dataset
 A collection of open-source instruction tuning datasets to train chat-based LLMs (ChatGPT,LLaMA,Alpaca)
 
-Instruction Tuning is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
+Instruction Tuning / Reinforcement Learning from Human Feedback (RLHF) Dataset is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
 
 Size: The number of instruction tuning pairs
 
@@ -22,7 +22,7 @@ Generation-method:
 
 # Table of Contents
 1. [The template](#The-template)
-2. [The Dataset](#The-Instruction-following-Dataset)
+2. [The Instruction tuning Dataset](#The-Instruction-following-Dataset)
    - [(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
    - [(gururise/Cleaned Alpaca)|52K|EN|MT|SI](https://github.com/gururise/AlpacaDataCleaned)
    - [(XueFuzhao/InstructionWild)|52K|EN|CN|MT|SI](https://github.com/XueFuzhao/InstructionWild)
@@ -34,7 +34,10 @@ Generation-method:
    - [(bigscience/xP3)|N/A|ML|MT|MIX](https://huggingface.co/datasets/bigscience/xP3)
    - [(nomic-ai/gpt4all)|437k|EN|MT|COL](https://github.com/nomic-ai/gpt4all)
    - [(PhoebusSi/Alpaca-CoT)|500k|ML|MT|COL](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT)
-3. [At Your Own Risk Dataset](#Dataset-without-license-information )
+3. [Reinforcement Learning from Human Feedback (RLHF) Datasets](#Reinforcement-Learning-from-Human-Feedback-(RLHF)-Datasets)
+   - [(Anthropic/hh-rlhf)|22k|EN|MT|MIX](https://huggingface.co/datasets/Anthropic/hh-rlhf)
+   - [(HuggingFaceH4/stack-exchange-preferences)|10741k|EN|TS|HG](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences)
+4. [At Your Own Risk Dataset](#Dataset-without-license-information )
    - [(alespalla/chatbot_instruction_prompts)|250k|EN|MT|COL](https://huggingface.co/datasets/alespalla/chatbot_instruction_prompts)
 5. [Awesome Codebase](#Open-source Codebase For Instruction-following LLMs)
    - [A awesome compilation of Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
@@ -51,9 +54,10 @@ Append the new project at the end of file
 - Data generation model:
 - paper:
 - Cost:
+- Realed: (if applicable)
 ```
 
-# The Instruction-following Dataset
+# The Instruction-following Datasets
 
 ## [(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
 
@@ -137,7 +141,27 @@ Append the new project at the end of file
  - paper: N/A
  - Cost: N/A
  
-# Dataset without license information 
+# Reinforcement Learning from Human Feedback (RLHF) Datasets
+
+  ## [(Anthropic/hh-rlhf)|22k|EN|MT|MIX](https://huggingface.co/datasets/Anthropic/hh-rlhf)
+
+ - Summary: This RLHF dataset is an iterated 'online' dataset that includes data from 52B language models. It contains 22k helpfulness comparisons and no red-teaming data. 
+ - Data generation model: `Anthropic RL-CAI 52B`
+ - paper: [Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2204.05862)
+ - Cost: N/A
+ - Related: 
+     -[(Hello-SimpleAI/HC3)|24K|EN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3)
+     -[(Hello-SimpleAI/HC3-Chinese)|13K|CN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese)
+
+  ## [(HuggingFaceH4/stack-exchange-preferences)|10741k|EN|TS|HG](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences)
+
+ - Summary: This dataset contains questions and answers from the Stack Overflow Data Dump for the purpose of preference model training.
+ - Data generation model: N/A
+ - paper:[A General Language Assistant as a Laboratory for Alignment](https://arxiv.org/abs/2112.00861)
+ - Cost: N/A
+
+
+# Datasets without license information 
 
  ## [(alespalla/chatbot_instruction_prompts)|250k|EN|MT|COL](https://huggingface.co/datasets/alespalla/chatbot_instruction_prompts)
 
