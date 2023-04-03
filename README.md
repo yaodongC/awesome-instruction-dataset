@@ -3,6 +3,8 @@ A collection of open-source instruction tuning datasets to train chat-based LLMs
 
 Instruction Tuning / Reinforcement Learning from Human Feedback (RLHF) Dataset is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
 
+Other relevant awsome-list: [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
+
 Size: The number of instruction tuning pairs
 
 Lingual-Tags:
