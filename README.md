@@ -39,7 +39,7 @@ Generation-method:
    - [(google-research/FLAN)|N/A|EN|MT|MIX](https://github.com/google-research/FLAN/tree/main/flan/v2)
    - [(thunlp/UltraChat)|280k|EN|TS|MIX](https://github.com/thunlp/UltraChat)
    - [(cascip/ChatAlpaca)|10k|EN|MT|MIX](https://github.com/cascip/ChatAlpaca)
-   - [(YeungNLP/firefly-train-1.1M)|1100k|CN|MT|SI](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M)
+   - [(YeungNLP/firefly-train-1.1M)|1100k|CN|MT|COL](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M)
 3. [Reinforcement Learning from Human Feedback (RLHF) Datasets](#reinforcement-learning-from-human-feedback-rlhf-datasets)
    - [(Anthropic/hh-rlhf)|22k|EN|MT|MIX](https://huggingface.co/datasets/Anthropic/hh-rlhf)
    - [(HuggingFaceH4/stack-exchange-preferences)|10741k|EN|TS|HG](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences)
@@ -170,9 +170,9 @@ Append the new project at the end of file
  - Cost: N/A
  - Related: [(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
   
-  ## [(YeungNLP/firefly-train-1.1M)|1100k|CN|MT|SI](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M)
- - Summary: 
- - Data generation model: `GPT-3.5-turbo`
+  ## [(YeungNLP/firefly-train-1.1M)|1100k|CN|MT|COL](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M)
+ - Summary: Chinese datasets of 23 tasks combined with human-written instruction templates. 
+ - Data generation model: N/A
  - paper: N/A
  - Cost: N/A
  
