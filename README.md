@@ -3,7 +3,7 @@ A collection of open-source instruction tuning datasets to train chat-based LLMs
 
 Instruction Tuning / Reinforcement Learning from Human Feedback (RLHF) Dataset is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
 
-Other relevant awsome-list: [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
+Other relevant awesome-list: [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
 
 Size: The number of instruction tuning pairs
 
@@ -23,8 +23,8 @@ Generation-method:
 - COL: [Collection of Dataset] Dataset made from a collection of other datasets
 
 # Table of Contents
-1. [The template](#The-template)
-2. [The Instruction tuning Dataset](#The-Instruction-following-Dataset)
+1. [The template](#the-template)
+2. [The Instruction tuning Dataset](#the-instruction-following-datasets)
    - [(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
    - [(gururise/Cleaned Alpaca)|52K|EN|MT|SI](https://github.com/gururise/AlpacaDataCleaned)
    - [(XueFuzhao/InstructionWild)|52K|EN|CN|MT|SI](https://github.com/XueFuzhao/InstructionWild)
@@ -37,13 +37,17 @@ Generation-method:
    - [(nomic-ai/gpt4all)|437k|EN|MT|COL](https://github.com/nomic-ai/gpt4all)
    - [(PhoebusSi/Alpaca-CoT)|500k|ML|MT|COL](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT)
    - [(google-research/FLAN)|N/A|EN|MT|MIX](https://github.com/google-research/FLAN/tree/main/flan/v2)
-3. [Reinforcement Learning from Human Feedback (RLHF) Datasets](#Reinforcement-Learning-from-Human-Feedback-(RLHF)-Datasets)
+   - [(thunlp/UltraChat)|280k|EN|TS|MIX](https://github.com/thunlp/UltraChat)
+   - [(cascip/ChatAlpaca)|10k|EN|MT|MIX](https://github.com/cascip/ChatAlpaca)
+   - [(YeungNLP/firefly-train-1.1M)|1100k|CN|MT|COL](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M)
+3. [Reinforcement Learning from Human Feedback (RLHF) Datasets](#reinforcement-learning-from-human-feedback-rlhf-datasets)
    - [(Anthropic/hh-rlhf)|22k|EN|MT|MIX](https://huggingface.co/datasets/Anthropic/hh-rlhf)
    - [(HuggingFaceH4/stack-exchange-preferences)|10741k|EN|TS|HG](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences)
-4. [At Your Own Risk Dataset](#Dataset-without-license-information )
+   - [(stanfordnlp/SHP)|385k|EN|MT|HG](https://huggingface.co/datasets/stanfordnlp/SHP)
+4. [At Your Own Risk Dataset](#datasets-without-license-information)
    - [(alespalla/chatbot_instruction_prompts)|250k|EN|MT|COL](https://huggingface.co/datasets/alespalla/chatbot_instruction_prompts)
-5. [Awesome Codebase](#Open-source Codebase For Instruction-following LLMs)
-   - [A awesome compilation of Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
+5. [Awesome Codebase](#open-source-codebase-for-instruction-following-llms)
+   - [An awesome compilation of Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
  
 
 # The template
@@ -57,7 +61,7 @@ Append the new project at the end of file
 - Data generation model:
 - paper:
 - Cost:
-- Realed: (if applicable)
+- Related: (if applicable)
 ```
 
 # The Instruction-following Datasets
@@ -150,6 +154,28 @@ Append the new project at the end of file
  - Data generation model: N/A
  - paper: [The Flan Collection: Designing Data and Methods for Effective Instruction Tuning](https://arxiv.org/abs/2301.13688)
  - Cost: N/A
+
+  ## [(thunlp/UltraChat)|280k|EN|TS|MIX](https://github.com/thunlp/UltraChat)
+
+ - Summary: UltraChat aims to construct an open-source, large-scale, and multi-round dialogue data. The first part of UltraChat (i.e., the Questions about the World sector) is released, which contains 280k diverse and informative dialogues. More dialogues about writing and creation, assistance on existing materials are to come.
+ - Data generation model: `GPT-3.5-turbo`
+ - paper: N/A
+ - Cost: N/A
+ 
+  ## [(cascip/ChatAlpaca)|10k|EN|MT|MIX](https://github.com/cascip/ChatAlpaca)
+
+ - Summary: Based on the Stanford Alpaca data, ChatAlpaca extends the data to multi-turn instructions and their corresponding responses. More data (20k) and the Chinese translated version are to come.
+ - Data generation model: `GPT-3.5-turbo`
+ - paper: N/A
+ - Cost: N/A
+ - Related: [(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
+  
+  ## [(YeungNLP/firefly-train-1.1M)|1100k|CN|MT|COL](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M)
+ - Summary: Chinese datasets of 23 tasks combined with human-written instruction templates. 
+ - Data generation model: N/A
+ - paper: N/A
+ - Cost: N/A
+ 
  
 # Reinforcement Learning from Human Feedback (RLHF) Datasets
 
@@ -168,6 +194,13 @@ Append the new project at the end of file
  - Summary: This dataset contains questions and answers from the Stack Overflow Data Dump for the purpose of preference model training.
  - Data generation model: N/A
  - paper:[A General Language Assistant as a Laboratory for Alignment](https://arxiv.org/abs/2112.00861)
+ - Cost: N/A
+ 
+  ## [(stanfordnlp/SHP)|385k|EN|MT|HG](https://huggingface.co/datasets/stanfordnlp/SHP)
+
+ - Summary: Each example is a Reddit post with a question/instruction and a pair of top-level comments for that post, where one comment is more preferred by Reddit users (collectively).
+ - Data generation model: N/A
+ - paper: N/A
  - Cost: N/A
 
 
