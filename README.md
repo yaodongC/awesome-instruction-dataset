@@ -223,7 +223,7 @@ Append the new project at the end of file
  
   ## [(Instruction-Tuning-with-GPT-4/GPT-4-LLM)|52K|EN|MT|MIX](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
  
- - Summary: Ranked responses of Alpaca prompts from three models (GPT-4, GPT-3.5 and OPT-IML) by asking GPT-4 to rate the quality.
+ - Summary: Ranked responses (Note: Data is evaluated by `GPT-4` model NOT human) of Alpaca prompts from three models (GPT-4, GPT-3.5 and OPT-IML) by asking GPT-4 to rate the quality. Author believes "GPT-4 is capable of identifying and fixing its own mistakes, and accurately judging the quality of responses" 
  - Data generation model: `GPT-4`
  - paper: [Instruction Tuning with GPT-4](https://arxiv.org/abs/2304.03277)
  - Cost: N/A
