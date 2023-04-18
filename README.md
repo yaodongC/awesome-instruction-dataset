@@ -251,9 +251,3 @@ Append the new project at the end of file
  - Cost: N/A
  - Related: 
      -[(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
-
-
-# Open-source Codebase For Instruction-following LLMs
-
-## [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
-- Summary: Alternatives are projects featuring different instruct finetuned language models for chat. 
