@@ -1,5 +1,5 @@
-# awesome-instruction-tuning(ChatGPT|LLaMA)-dataset
-A collection of open-source instruction tuning datasets to train chat-based LLMs (ChatGPT,LLaMA,Alpaca)
+# awesome-instruction-tuning-dataset (Included Multi-Modal)
+A collection of open-source instruction tuning datasets to train (text and multi-modal) chat-based LLMs (GPT-4, ChatGPT,LLaMA,Alpaca). We currently include image-instruction-answer and instruction-answer datasets.
 
 Instruction Tuning / Reinforcement Learning from Human Feedback (RLHF) Dataset is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
 
@@ -24,7 +24,9 @@ Generation-method:
 
 # Table of Contents
 1. [The template](#the-template)
-2. [The Instruction tuning Dataset](#the-instruction-following-datasets)
+2. [The Multi-modal Instruction Dataset](#the-multi-modal-instruction-datasets)
+   - [(Vision-CAIR/MiniGPT-4)|5K|EN|MT|MIX](https://minigpt-4.github.io/)
+3. [The Instruction tuning Dataset](#the-instruction-following-datasets)
    - [(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
    - [(gururise/Cleaned Alpaca)|52K|EN|MT|SI](https://github.com/gururise/AlpacaDataCleaned)
    - [(XueFuzhao/InstructionWild)|52K|EN|CN|MT|SI](https://github.com/XueFuzhao/InstructionWild)
@@ -44,13 +46,11 @@ Generation-method:
    - [(Instruction-Tuning-with-GPT-4/GPT-4-LLM)|52K|EN|CN|MT|SI](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
    - [(databrickslabs/dolly)|15K|EN|MT|HG](https://github.com/databrickslabs/dolly/tree/master/data)
    - [(OpenAssistant/oasst1)|161K|ML|MT|HG](https://huggingface.co/datasets/OpenAssistant/oasst1)
-3. [Reinforcement Learning from Human Feedback (RLHF) Datasets](#reinforcement-learning-from-human-feedback-rlhf-datasets)
+4. [Reinforcement Learning from Human Feedback (RLHF) Datasets](#reinforcement-learning-from-human-feedback-rlhf-datasets)
    - [(Anthropic/hh-rlhf)|22k|EN|MT|MIX](https://huggingface.co/datasets/Anthropic/hh-rlhf)
    - [(HuggingFaceH4/stack-exchange-preferences)|10741k|EN|TS|HG](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences)
    - [(stanfordnlp/SHP)|385k|EN|MT|HG](https://huggingface.co/datasets/stanfordnlp/SHP)
    - [(Instruction-Tuning-with-GPT-4/GPT-4-LLM)|52K|EN|MT|MIX](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
-4. [At Your Own Risk Dataset](#datasets-without-license-information)
-   - [(alespalla/chatbot_instruction_prompts)|250k|EN|MT|COL](https://huggingface.co/datasets/alespalla/chatbot_instruction_prompts)
 5. [Awesome Codebase](#open-source-codebase-for-instruction-following-llms)
    - [An awesome compilation of Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
  
@@ -68,6 +68,15 @@ Append the new project at the end of file
 - Cost:
 - Related: (if applicable)
 ```
+# The Multi-modal Instruction Datasets
+
+  ## [(Vision-CAIR/MiniGPT-4)|5K|EN|MT|MIX](https://minigpt-4.github.io/)
+ - Summary: A high-quality, well-aligned (e.g. more detailed image desciption) image-text dataset created using conversation between two bots, similar to [ChatCaptioner](https://github.com/Vision-CAIR/ChatCaptioner). This image-text dataset can then be used with some predefined instruction template for image-instruction-answer finetuning.
+ - Modality: Text, Image
+ - paper: [MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/MiniGPT_4.pdf)
+ - Related: 
+     -[Interactive ChatCaptioner for image and video](https://github.com/Vision-CAIR/ChatCaptioner)
+     
 
 # The Instruction-following Datasets
 
@@ -243,15 +252,6 @@ Append the new project at the end of file
  - Related: 
      -[(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
 
-
-# Datasets without license information 
-
- ## [(alespalla/chatbot_instruction_prompts)|250k|EN|MT|COL](https://huggingface.co/datasets/alespalla/chatbot_instruction_prompts)
-
- - Summary: A compilation of `tatsu-lab/alpaca` ,`Dahoas/instruct-human-assistant-prompt` ,`allenai/prosocial-dialog`
- - Data generation model: N/A
- - paper: N/A
- - Cost: N/A
 
 # Open-source Codebase For Instruction-following LLMs
 
