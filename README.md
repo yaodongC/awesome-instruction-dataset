@@ -1,5 +1,5 @@
-# awesome-instruction-tuning-dataset (Included Multi-Modal)
-A collection of open-source instruction tuning datasets to train (text and multi-modal) chat-based LLMs (GPT-4, ChatGPT,LLaMA,Alpaca). We currently include image-instruction-answer and instruction-answer datasets.
+# awesome-text/visual-instruction-tuning-dataset
+A collection of open-source instruction tuning datasets to train (text and multi-modal) chat-based LLMs (GPT-4, ChatGPT,LLaMA,Alpaca). We currently include image-instruction-answer (e.g. visual-instruction-tuning) and instruction-answer datasets.
 
 Instruction Tuning / Reinforcement Learning from Human Feedback (RLHF) Dataset is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
 
@@ -26,6 +26,7 @@ Generation-method:
 1. [The template](#the-template)
 2. [The Multi-modal Instruction Dataset](#the-multi-modal-instruction-datasets)
    - [(Vision-CAIR/MiniGPT-4)|5K|EN|MT|MIX](https://minigpt-4.github.io/)
+   - [(haotian-liu/LLaVA)|150K|EN|MT|MIX](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)
 3. [The Instruction tuning Dataset](#the-instruction-following-datasets)
    - [(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
    - [(gururise/Cleaned Alpaca)|52K|EN|MT|SI](https://github.com/gururise/AlpacaDataCleaned)
@@ -71,11 +72,18 @@ Append the new project at the end of file
   ## [(Vision-CAIR/MiniGPT-4)|5K|EN|MT|MIX](https://minigpt-4.github.io/)
  - Summary: A high-quality, well-aligned (e.g. more detailed image desciption) image-text dataset created using conversation between two bots, similar to [ChatCaptioner](https://github.com/Vision-CAIR/ChatCaptioner). This image-text dataset can then be used with some predefined instruction template for image-instruction-answer finetuning.
  - Modality: Text, Image
+ - Data generation model: N/A
  - paper: [MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/MiniGPT_4.pdf)
  - Related: 
      -[Interactive ChatCaptioner for image and video](https://github.com/Vision-CAIR/ChatCaptioner)
      
+  ## [(haotian-liu/LLaVA)|150K|EN|MT|MIX](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)
+ - Summary: LLaVA Visual Instruct 150K is a set of GPT-generated multimodal instruction-following data. It is constructed for visual instruction tuning and for building large multimodal towards GPT-4 vision/language capability.
+ - Modality: Text, Image
+ - Data generation model: `GPT-4-0314` 
+ - paper: [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)
 
+     
 # The Instruction-following Datasets
 
 ## [(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
