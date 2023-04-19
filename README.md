@@ -3,7 +3,7 @@ A collection of open-source instruction tuning datasets to train (text and multi
 
 Instruction Tuning / Reinforcement Learning from Human Feedback (RLHF) Dataset is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
 
-Other relevant awesome-list: [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
+Other relevant awesome-list: [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt): A codebase of totally open alternatives to ChatGPT
 
 Size: The number of instruction tuning pairs
 
@@ -51,8 +51,6 @@ Generation-method:
    - [(HuggingFaceH4/stack-exchange-preferences)|10741k|EN|TS|HG](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences)
    - [(stanfordnlp/SHP)|385k|EN|MT|HG](https://huggingface.co/datasets/stanfordnlp/SHP)
    - [(Instruction-Tuning-with-GPT-4/GPT-4-LLM)|52K|EN|MT|MIX](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
-5. [Awesome Codebase](#open-source-codebase-for-instruction-following-llms)
-   - [An awesome compilation of Open Chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
  
 
 # The template
