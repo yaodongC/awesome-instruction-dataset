@@ -259,6 +259,9 @@ Append the new project at the end of file
  - Data generation model: N/A
  - paper: [A General Language Assistant as a Laboratory for Alignment](https://arxiv.org/abs/2112.00861)
  - License: [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)
+ - Related:
+     -[stack-exchange-paired](https://huggingface.co/datasets/lvwerra/stack-exchange-paired)
+
  
   ## [(stanfordnlp/SHP)|385k|EN|MT|HG](https://huggingface.co/datasets/stanfordnlp/SHP)
 
@@ -275,6 +278,14 @@ Append the new project at the end of file
  - License: [`CC BY-NC 4.0`](https://creativecommons.org/licenses/by-nc/4.0/deed.en_GB)
  - Related: 
      -[(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
+      
+  ## [(Reddit/eli5)|500k|EN|MT|HG](https://huggingface.co/datasets/eli5)
+
+- summary: This dataset contains questions and answers from the subreddits [r/explainlikeimfive](https://www.reddit.com/r/explainlikeimfive/), [r/askhistorians](https://www.reddit.com/r/AskHistorians/) and [r/askscience](https://www.reddit.com/r/AskScience/).
+- Data generation model: N/A
+- paper: N/A
+- License: N/A
+- Related: [eli5 dataset](https://huggingface.co/datasets/vincentmin/eli5_rlhf) a transformation of the [eli5](https://huggingface.co/datasets/eli5) dataset in a format similar to [stack-exchange-paired](https://huggingface.co/datasets/lvwerra/stack-exchange-paired).
 
 # License that Allows Commercial Use
 
