@@ -48,7 +48,7 @@ Generation-method:
    - [(databrickslabs/dolly)|15K|EN|MT|HG](https://github.com/databrickslabs/dolly/tree/master/data)
    - [(OpenAssistant/oasst1)|161K|ML|MT|HG](https://huggingface.co/datasets/OpenAssistant/oasst1)
    - [(RyokoAI/ShareGPT52K)|90K|ML|MT|SI](https://huggingface.co/datasets/RyokoAI/ShareGPT52K)
-4. [Reinforcement Learning from Human Feedback (RLHF) Datasets](#reinforcement-learning-from-human-feedbBSD 3-Clauseack-rlhf-datasets)
+4. [Reinforcement Learning from Human Feedback (RLHF) Datasets](#reinforcement-learning-from-human-feedback-(rlhf)-datasets)
    - [(Anthropic/hh-rlhf)|22k|EN|MT|MIX](https://huggingface.co/datasets/Anthropic/hh-rlhf)
    - [(HuggingFaceH4/stack-exchange-preferences)|10741k|EN|TS|HG](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences)
    - [(stanfordnlp/SHP)|385k|EN|MT|HG](https://huggingface.co/datasets/stanfordnlp/SHP)
