@@ -3,7 +3,8 @@ A collection of open-source instruction tuning datasets to train (text and multi
 
 Instruction Tuning / Reinforcement Learning from Human Feedback (RLHF) Dataset is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
 
-Other relevant awesome-list: [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt): A codebase of totally open alternatives to ChatGPT
+Lists of codebse to train your LLMs: 
+ - [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt): A codebase of totally open alternatives to ChatGPT
 
 Size: The number of instruction tuning pairs
 
@@ -79,7 +80,7 @@ Append the new project at the end of file
  - paper: [MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/MiniGPT_4.pdf)
  - License: [`BSD 3-Clause`](https://opensource.org/license/bsd-3-clause/)
  - Related: 
-     -[Interactive ChatCaptioner for image and video](https://github.com/Vision-CAIR/ChatCaptioner)
+     - [Interactive ChatCaptioner for image and video](https://github.com/Vision-CAIR/ChatCaptioner)
      
  ## [(haotian-liu/LLaVA)|150K|EN|MT|MIX](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)
   
@@ -156,7 +157,7 @@ Append the new project at the end of file
 
  ## [(PhoebusSi/Alpaca-CoT)|500k|ML|MT|COL](https://huggingface.co/datasets/QingyiSi/Alpaca-CoT)
 
- - Summary: A datset for Chain-of-Thoughts reasoning based on LLaMA and Alpaca. Note: Their repository will continuously collect various instruction tuning datasets. [Github Repo](https://github.com/PhoebusSi/Alpaca-CoT)
+ - Summary: A datset for Chain-of-Thoughts reasoning based on LLaMA and Alpaca. Note: Their repository will continuously collect and combine various instruction tuning datasets. [Github Repo](https://github.com/PhoebusSi/Alpaca-CoT)
  - paper: N/A
  - License: [`Apache License 2.0`](https://www.apache.org/licenses/LICENSE-2.0)
  
@@ -217,8 +218,8 @@ Append the new project at the end of file
  - paper: [Instruction Tuning with GPT-4](https://arxiv.org/abs/2304.03277)
  - License: [`CC BY-NC 4.0`](https://creativecommons.org/licenses/by-nc/4.0/deed.en_GB)
  - Related: 
-     -[(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
-     -[(orhonovich/unnatural-instructions)|240K|EN|MT|MIX](https://github.com/orhonovich/unnatural-instructions)
+     - [(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
+     - [(orhonovich/unnatural-instructions)|240K|EN|MT|MIX](https://github.com/orhonovich/unnatural-instructions)
  
  ## [(databrickslabs/dolly)|15K|EN|MT|HG](https://github.com/databrickslabs/dolly/tree/master/data)
  
@@ -250,8 +251,8 @@ Append the new project at the end of file
  - paper: [Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2204.05862)
  - License: [`MIT License`](https://opensource.org/license/mit/)
  - Related: 
-     -[(Hello-SimpleAI/HC3)|24K|EN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3)
-     -[(Hello-SimpleAI/HC3-Chinese)|13K|CN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese)
+     - [(Hello-SimpleAI/HC3)|24K|EN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3)
+     - [(Hello-SimpleAI/HC3-Chinese)|13K|CN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese)
 
   ## [(HuggingFaceH4/stack-exchange-preferences)|10741k|EN|TS|HG](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences)
 
@@ -260,7 +261,7 @@ Append the new project at the end of file
  - paper: [A General Language Assistant as a Laboratory for Alignment](https://arxiv.org/abs/2112.00861)
  - License: [`CC BY-SA 4.0`](https://creativecommons.org/licenses/by-sa/4.0/)
  - Related:
-     -[stack-exchange-paired](https://huggingface.co/datasets/lvwerra/stack-exchange-paired)
+     - [stack-exchange-paired](https://huggingface.co/datasets/lvwerra/stack-exchange-paired)
 
  
   ## [(stanfordnlp/SHP)|385k|EN|MT|HG](https://huggingface.co/datasets/stanfordnlp/SHP)
@@ -277,7 +278,7 @@ Append the new project at the end of file
  - paper: [Instruction Tuning with GPT-4](https://arxiv.org/abs/2304.03277)
  - License: [`CC BY-NC 4.0`](https://creativecommons.org/licenses/by-nc/4.0/deed.en_GB)
  - Related: 
-     -[(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
+     - [(tatsu-lab/Alpaca)|52K|EN|MT|SI](https://github.com/tatsu-lab/stanford_alpaca)
       
   ## [(Reddit/eli5)|500k|EN|MT|HG](https://huggingface.co/datasets/eli5)
 
