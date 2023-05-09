@@ -1,5 +1,9 @@
 # awesome-text/visual-instruction-tuning-dataset
-A collection of open-source instruction tuning datasets to train (text and multi-modal) chat-based LLMs (GPT-4, ChatGPT,LLaMA,Alpaca). We currently include image-instruction-answer (e.g. visual-instruction-tuning) and instruction-answer datasets.
+A collection of open-source instruction tuning datasets to train (text and multi-modal) chat-based LLMs (GPT-4, ChatGPT,LLaMA,Alpaca). 
+We currently include three types of dataset:
+ 1. visual-instruction-tuning (e.g. image-instruction-answer)
+ 2. text-instruction-tuning datasets.
+ 3. red-teaming | Reinforcement Learning from Human Feedback (RLHF) Datasets
 
 Instruction Tuning / Reinforcement Learning from Human Feedback (RLHF) Dataset is a key component of instruction-following LLMs such as ChatGPT. This repo is dedicated to providing a comprehensive list of datasets used for instruction tuning in various LLMs, making it easier for researchers and developers to access and utilize these resources.
 
@@ -51,6 +55,7 @@ Generation-method:
    - [(RyokoAI/ShareGPT52K)|90K|ML|MT|SI](https://huggingface.co/datasets/RyokoAI/ShareGPT52K)
 4. [Reinforcement Learning from Human Feedback (RLHF) Datasets](#reinforcement-learning-from-human-feedback-(rlhf)-datasets)
    - [(Anthropic/hh-rlhf)|22k|EN|MT|MIX](https://huggingface.co/datasets/Anthropic/hh-rlhf)
+   - [(thu-coai/Safety-Prompts)|100k|CN|MT|MIX](https://github.com/thu-coai/Safety-Prompts)
    - [(HuggingFaceH4/stack-exchange-preferences)|10741k|EN|TS|HG](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences)
    - [(stanfordnlp/SHP)|385k|EN|MT|HG](https://huggingface.co/datasets/stanfordnlp/SHP)
    - [(Instruction-Tuning-with-GPT-4/GPT-4-LLM)|52K|EN|MT|MIX](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)
@@ -242,7 +247,7 @@ Append the new project at the end of file
  - paper: N/A
  - License: [`CC0 1.0 Universal`](https://creativecommons.org/publicdomain/zero/1.0/)
  
-# Reinforcement Learning from Human Feedback (RLHF) Datasets
+# Reinforcement Learning from Human Feedback (RLHF) | Red-Teaming Datasets
 
   ## [(Anthropic/hh-rlhf)|22k|EN|MT|MIX](https://huggingface.co/datasets/Anthropic/hh-rlhf)
 
@@ -253,6 +258,13 @@ Append the new project at the end of file
  - Related: 
      - [(Hello-SimpleAI/HC3)|24K|EN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3)
      - [(Hello-SimpleAI/HC3-Chinese)|13K|CN|MT|MIX](https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese)
+
+## [(thu-coai/Safety-Prompts)|100k|CN|MT|MIX](https://github.com/thu-coai/Safety-Prompts)
+
+ - Summary: Chinese safety prompts for evaluating and improving the safety of LLMs. This repository includes 100k Chinese security scene prompts and ChatGPT responses, covering various security scenarios and command attacks. It can be used for comprehensive evaluation and improvement of model security, as well as enhancing the model's knowledge of security, aligning model output with human values.
+ - Data generation model: `GPT-3.5`
+ - paper: [Safety Assessment of Chinese Large Language Models](https://arxiv.org/abs/2304.10436)
+ - License: [`Apache License 2.0`](https://www.apache.org/licenses/LICENSE-2.0)
 
   ## [(HuggingFaceH4/stack-exchange-preferences)|10741k|EN|TS|HG](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences)
 
