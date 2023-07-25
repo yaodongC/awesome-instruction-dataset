@@ -53,6 +53,7 @@ Generation-method:
    - [(databrickslabs/dolly)|15K|EN|MT|HG](https://github.com/databrickslabs/dolly/tree/master/data)
    - [(OpenAssistant/oasst1)|161K|ML|MT|HG](https://huggingface.co/datasets/OpenAssistant/oasst1)
    - [(RyokoAI/ShareGPT52K)|90K|ML|MT|SI](https://huggingface.co/datasets/RyokoAI/ShareGPT52K)
+   - [(zjunlp/Mol-Instructions)|2043K|ML|MT|MIX](https://huggingface.co/datasets/zjunlp/Mol-Instructions)
 4. [Reinforcement Learning from Human Feedback (RLHF) Datasets](#reinforcement-learning-from-human-feedback-(rlhf)-datasets)
    - [(Anthropic/hh-rlhf)|22k|EN|MT|MIX](https://huggingface.co/datasets/Anthropic/hh-rlhf)
    - [(thu-coai/Safety-Prompts)|100k|CN|MT|MIX](https://github.com/thu-coai/Safety-Prompts)
@@ -246,6 +247,14 @@ Append the new project at the end of file
  - Data generation model: `GPT-4`,`GPT-3.5`
  - paper: N/A
  - License: [`CC0 1.0 Universal`](https://creativecommons.org/publicdomain/zero/1.0/)
+
+ ## [(zjunlp/Mol-Instructions)|2043K|ML|MT|MIX](https://huggingface.co/datasets/zjunlp/Mol-Instructions)
+ 
+ - Summary: An open, large-scale biomolecular instruction dataset consisting of 148,4K molecule-oriented, 505K protein-oriented, and 53K biomolecular text instructions.
+ - Data generation model: `GPT-3.5`
+ - paper: [Mol-Instructions: A Large-Scale Biomolecular Instruction Dataset for Large Language Models](https://arxiv.org/pdf/2306.08018.pdf)
+ - License: [`CC BY 4.0`](https://github.com/zjunlp/Mol-Instructions/blob/main/DATA_LICENSE)
+
  
 # Reinforcement Learning from Human Feedback (RLHF) | Red-Teaming Datasets
 
