@@ -1,4 +1,8 @@
-# awesome-text/visual-instruction-tuning-dataset
+<div align="center">
+    <h1>Awesome Instruction Tuning Dataset</h1>
+    <a href="https://awesome.re"><img src="https://awesome.re/badge.svg"/></a>
+</div>
+
 A collection of open-source instruction tuning datasets to train (text and multi-modal) chat-based LLMs (GPT-4, ChatGPT,LLaMA,Alpaca). 
 We currently include three types of dataset:
  1. visual-instruction-tuning (e.g. image-instruction-answer)
