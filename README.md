@@ -96,6 +96,13 @@ Append the new project at the end of file
  - paper: [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)
  - License: [`CC BY-NC 4.0`](https://creativecommons.org/licenses/by-nc/4.0/deed.en_GB)
 
+ ## [({sunrainyg}/{InstructCV)|EN|MT|MIX}]{https://github.com/AlaaLab/InstructCV}
+
+- summary: Instruction-Tuned Text-To-Image Diffusion Models As Vision Generalists
+- Modality: Text, Image
+- paper: [InstructCV](https://arxiv.org/pdf/2310.00390.pdf)
+- License: [`CC BY-NC 4.0`](https://creativecommons.org/licenses/by-nc/4.0/deed.en_GB)
+
      
 # The Instruction-following Datasets
 
